@@ -1,0 +1,62 @@
+{
+	"yearsago":"%1$lu years ago",
+	"yearago":"1 year ago",
+
+	"yearsahead":"in %1$lu years",
+	"yearahead":"in 1 year",
+
+	"monthsago":"%1$lu months ago",
+	"monthago":"1 month ago",
+
+	"monthsahead":"in %1$lu months",
+	"monthahead":"in 1 month",
+
+	"weeksago":"%1$lu weeks ago",
+	"weekago":"1 week ago",
+
+	"weeksahead":"in %1$lu weeks",
+	"weekahead":"in 1 week",
+
+	"daysago":"%1$lu days ago",
+	"dayago":"1 day ago",
+
+	"dayago-idiomatic":"yesterday",
+
+	"daysahead":"in %1$lu days",
+	"dayahead":"in 1 day",
+
+	"dayahead-idiomatic":"tomorrow",
+
+	"hoursago":"%1$lu hours ago",
+	"hourago":"1 hour ago",
+
+	"hoursahead":"in %1$lu hours",
+	"hourahead":"in 1 hour",
+
+	"minutesago":"%1$lu minutes ago",
+	"minuteago":"1 minute ago",
+
+	"minutesahead":"in %1$lu minutes",
+	"minuteahead":"in 1 minute",
+
+	"secondsago":"%1$lu seconds ago",
+	"secondago":"1 second ago",
+
+	"secondsago-idiomatic":"a few seconds ago",
+
+	"secondsahead":"in %1$lu seconds",
+	"secondahead":"in 1 second",
+
+	"secondsahead-idiomatic":"in a few seconds",
+
+	"now":"now",
+
+
+	"thisyear":"this year",
+	"thismonth":"this month",
+	"thisweek":"this week",
+	"today":"today",
+	"thishour":"less than one hour",
+	"thisminute":"less than one minute"
+
+}
