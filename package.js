@@ -1,6 +1,6 @@
 Package.describe({
   name: "bitomule:relativeformatterjs",
-  summary: "",
+  summary: "A simple date relative formatter without round",
   version: "0.1.0",
   git: "https://github.com/bitomule/relativeformatterjs"
 });
