@@ -6,6 +6,8 @@ A simple date relative formatter based on Swift [RelativeFormatter](https://gith
 
 You can use momentjs fromNow function for this but I needed a not rounded time relative formatter. momentjs rounds time so 1 month and 23 days would be displayed as “2 months” and I needed to match [RelativeFormatter](https://github.com/bitomule/RelativeFormatter) format so it would be displayed as “1 month”
 
+If you don't need differences without round just use momentjs :) [momentjs](https://atmospherejs.com/momentjs/moment)
+
 ### Install
 
 ```bash
