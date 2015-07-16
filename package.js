@@ -7,7 +7,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom("1.0.1");
-  api.use(["grigio:babel","momentjs:moment","tap:i18n"], ["client", "server"]);
+  api.use(["grigio:babel"], ["client", "server"]);
   api.use('templating', "client");
   
   api.add_files("package-tap.i18n", ["client", "server"]);
@@ -23,7 +23,7 @@ Package.onUse(function(api) {
     
 Package.onTest(function (api) {
     api.use("tinytest");
-    api.use(["grigio:babel","momentjs:moment","tap:i18n"], ["client", "server"]);
+    api.use(["grigio:babel"], ["client", "server"]);
     api.use('templating', "client");
   
     
