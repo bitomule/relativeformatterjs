@@ -16,9 +16,7 @@ Package.onUse(function(api) {
     
 Package.onTest(function (api) {
     api.use("tinytest");
-    api.use(["grigio:babel"], ["client", "server"]);
-
-    api.addFiles("lib/relativeformatter.es6.js", ["client","server"]);
+    api.use(["grigio:babel","bitomule:relativeformatterjs"], ["client", "server"]);
     
     api.addFiles("tests/tests.js", ["client","server"]);
 });    
