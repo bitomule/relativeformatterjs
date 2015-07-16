@@ -7,7 +7,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom("1.0.1");
-  api.use(["jsx"], ["client", "server"]);
+  api.use("jsx@0.1.2", ["client", "server"]);
 
   api.addFiles("lib/relativeformatter.jsx", ["client","server"]);
   api.export('RelativeFormatter', ["client","server"]);
