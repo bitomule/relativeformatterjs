@@ -17,11 +17,11 @@ RelativeFormatter = class RelativeFormatter{
             timeKey = "ago";
         }
         if(dateComponents.years > 0){
-            return {key:"years" + timeKey + "_count",count:dateComponents.years};
+            return {key:"years" + timeKey,count:dateComponents.years};
         }else if(this.options.precision == RelativeFormatter.Precision.Year){
             return {key:"thisyear",count:0};
         }else if(dateComponents.months > 0){
-            return {key:"months" + timeKey + "_count",count:dateComponents.months};
+            return {key:"months" + timeKey,count:dateComponents.months};
         }
         else if(dateComponents.months == 0 && this.options.precision == RelativeFormatter.Precision.Month){
             return {key:"thismonth",count:0};
@@ -29,17 +29,17 @@ RelativeFormatter = class RelativeFormatter{
             if(dateComponents.days == 1 && this.options.idiomatic){
                 return {key:"days" + timeKey + "-idiomatic",count:0};
             }
-            return {key:"days" + timeKey + "_count",count:dateComponents.days};
+            return {key:"days" + timeKey,count:dateComponents.days};
         }
         else if(dateComponents.days == 0 && this.options.precision == RelativeFormatter.Precision.Day){
             return {key:"today",count:0};
         }else if(dateComponents.hours > 0){
-            return {key:"hours" + timeKey + "_count",count:dateComponents.hours};
+            return {key:"hours" + timeKey,count:dateComponents.hours};
         }
         else if(dateComponents.hours == 0 && this.options.precision == RelativeFormatter.Precision.Hour){
             return {key:"thishour",count:0};
         }else if(dateComponents.minutes > 0){
-            return {key:"minutes" + timeKey + "_count",count:dateComponents.minutes};
+            return {key:"minutes" + timeKey,count:dateComponents.minutes};
         }
         else if(dateComponents.minutes == 0 && this.options.precision == RelativeFormatter.Precision.Minute){
             return {key:"thisminute",count:0};
@@ -50,7 +50,7 @@ RelativeFormatter = class RelativeFormatter{
             if(this.options.idiomatic){
                 return {key:"seconds" + timeKey + "-idiomatic",count:0};
             }
-            return {key:"seconds" + timeKey + "_count",count:dateComponents.seconds};
+            return {key:"seconds" + timeKey,count:dateComponents.seconds};
         }
 
         return {key:"now",count:0};

@@ -7,16 +7,16 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom("1.0.1");
-  api.use(["grigio:babel"], ["client", "server"]);
+  api.use(["jsx"], ["client", "server"]);
 
-  api.addFiles("lib/relativeformatter.es6.js", ["client","server"]);
+  api.addFiles("lib/relativeformatter.jsx", ["client","server"]);
   api.export('RelativeFormatter', ["client","server"]);
 });
 
     
 Package.onTest(function (api) {
     api.use("tinytest");
-    api.use(["grigio:babel","bitomule:relativeformatterjs"], ["client", "server"]);
+    api.use(["bitomule:relativeformatterjs"], ["client", "server"]);
     
     api.addFiles("tests/tests.js", ["client","server"]);
 });    
