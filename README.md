@@ -1,3 +1,5 @@
+⛔️ DEPRECATED I'm no longer supporting this package.
+
 # relattiveformatterjs
 
 A simple date relative formatter based on Swift [RelativeFormatter](https://github.com/bitomule/RelativeFormatter)
